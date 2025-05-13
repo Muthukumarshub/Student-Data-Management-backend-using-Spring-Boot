@@ -54,7 +54,7 @@ This project provides a backend service for managing student information with th
 ### Setup & Run
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/student-data-management.git
+   git clone (https://github.com/Muthukumarshub/Student-Data-Management-backend-using-Spring-Boot).git
    cd student-data-management
    ```
 
@@ -87,8 +87,8 @@ The application uses H2 in-memory database for development. You can access the H
 ```
 URL: http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:testdb (or as configured in application.properties)
-Username: sa
-Password: (leave empty or as configured)
+Username: root
+Password: root
 ```
 
 ## API Testing with Postman
@@ -96,10 +96,10 @@ Password: (leave empty or as configured)
 ### GET All Students
 Send a GET request to `http://localhost:8080/api/v1/students` to retrieve all student records.
 
-![image](https://github.com/user-attachments/assets/05039a5e-a3b9-401d-b982-60a953235efb)
 
 ### GET Student by ID
 Send a GET request to `http://localhost:8080/students/{id}` replacing `{id}` with the student ID.
+![Screenshot 2025-05-13 125552](https://github.com/user-attachments/assets/cb93fb70-8204-4037-84c0-6178958040fc)
 
 
 ### POST Create New Student
@@ -116,7 +116,7 @@ Send a POST request to `http://localhost:8080/student/add` with a JSON body:
 
 ### PUT Update Student
 Send a PUT request to `http://localhost:8080/student/update/{id}` replacing `{id}` with the student ID.
-![image](https://github.com/user-attachments/assets/43bfcd21-7e39-48b9-8ffc-5151081b61b6)
+![Screenshot 2025-05-13 130030](https://github.com/user-attachments/assets/9a1aacc6-2dc8-48f8-aa5e-219c031c1540)
 
 
 ### DELETE Student
