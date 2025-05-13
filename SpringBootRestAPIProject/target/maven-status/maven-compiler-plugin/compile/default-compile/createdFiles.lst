@@ -1,0 +1,4 @@
+com\sjprogramming\restapi\entity\Student.class
+com\sjprogramming\restapi\SpringBootRestApiProjectApplication.class
+com\sjprogramming\restapi\controller\StudentControler.class
+com\sjprogramming\restapi\repository\StudentRepository.class
